@@ -25,10 +25,10 @@ $\textbf{证明}$ 由 $B$为实反对称矩阵可知， $B^T=-B$.那么 $|A-B^2|
 
 $\textbf{证明}$ 易知 $B^{-1}-A^{-1}$是实对称矩阵.由于存在可逆矩阵 $P$，使
 
- $$A=P^{-1}EP,B=P^{-1}\mathrm{diag} { \lambda_1,\cdots,\lambda_n } P,\lambda_i>0$$
+ $$A=P^{-1}EP,B=P^{-1}\mathrm{diag}\left\{ \lambda_1,\cdots,\lambda_n \right\} P,\lambda_i>0$$
  
 于是由 $A-B$正定知 $1-\lambda_i>0$，从而
- $$B^{-1}-A^{-1}=P^{-1}\mathrm{diag} \{ \frac{1}{\lambda_1}-1,\cdots,\frac{1}{\lambda_n}-1 \} P$$
+ $$B^{-1}-A^{-1}=P^{-1}\mathrm{diag} \left\{ \frac{1}{\lambda_1}-1,\cdots,\frac{1}{\lambda_n}-1 \right\} P$$
 且 $\frac{1}{\lambda_i}-1>0$，故 $B^{-1}-A^{-1}$正定.
 
 > 5.设 $A$为 $n$阶实对称矩阵， $\lambda_0$是 $A$的最大特征值.证明: $\lambda_1=\displaystyle\max_{x\in \mathbb{R}}\frac{x^TAx}{x^Tx}$，其中 $x$为非零向量.
