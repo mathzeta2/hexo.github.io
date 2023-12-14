@@ -7,7 +7,7 @@
 >(2) 若 $a^2>b\geq 0$ ，证明: $AA^T$ 的特征值均大于零.
 
 $\textbf{解}$ (1) 
-$$\begin{aligned}
+ $$\begin{aligned}
         |AA^T|&=\begin{vmatrix}
             a^2&b&\cdots&b\\
             b&a^2&\cdots&b\\
@@ -27,7 +27,7 @@ $$\begin{aligned}
         \end{vmatrix}=[a^2+(s-1)b](a^2-b)^{s-1}
     \end{aligned}$$
 (2) 由于
-$$\begin{aligned}
+ $$\begin{aligned}
         |\lambda E-AA^T|&=\begin{vmatrix}
             \lambda-a^2&-b&\cdots&-b\\
             -b&\lambda-a^2&\cdots&-b\\
