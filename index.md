@@ -9,7 +9,7 @@
 $\textbf{解}$ (1) 
 
  $$\begin{aligned}
-        |AA^T|&=\begin{vmatrix}
+        |AA^T| & =\begin{vmatrix}
             a^2&b&\cdots&b\\
             b&a^2&\cdots&b\\
             \vdots&\vdots&\ddots&\vdots\\
