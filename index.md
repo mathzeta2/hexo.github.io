@@ -8,8 +8,7 @@
 
 $\textbf{解}$ (1) 
 
- $$\begin{aligned}
-        |AA^T| & =\begin{vmatrix}
+ $$\begin{aligned}|AA^T| & =\begin{vmatrix}
             a^2&b&\cdots&b\\
             b&a^2&\cdots&b\\
             \vdots&\vdots&\ddots&\vdots\\
@@ -25,8 +24,7 @@ $\textbf{解}$ (1)
             0&a^2-b&\cdots&0\\
             \vdots&\vdots&\ddots&\vdots\\
             0&0&\cdots&a^2-b
-        \end{vmatrix}=[a^2+(s-1)b](a^2-b)^{s-1}
-    \end{aligned}$$
+        \end{vmatrix}=[a^2+(s-1)b](a^2-b)^{s-1}\end{aligned}$$
     
 (2) 由于
 
@@ -49,6 +47,7 @@ $\textbf{解}$ (1)
             0&0&\cdots&\lambda-a^2+b
         \end{vmatrix}=[\lambda-a^2+(s-1)(-b)](\lambda-a^2+b)^{s-1}
     \end{aligned}$$
+    
 故 $AA^T$ 的特征值为 $a^2+b(s-1),a^2-b$ ( $s-1$ 重)，当 $a^2>b>0$ 时， $AA^T$ 的特征值均大于 $0$ .
 
 >2.设  $A, B$  均是正定矩阵, 证明:
