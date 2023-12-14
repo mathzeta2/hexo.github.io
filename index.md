@@ -45,7 +45,9 @@ $$P^TAP=\begin{pmatrix}
         &&&\lambda_{n}
     \end{pmatrix}$$
 其中 $\lambda_1\geq \lambda_2\geq \cdots\geq \lambda_{n}$为 $A$的 $n$个特征向量.作变换 $x=Pz$，那么 $\forall x\in \mathrm{R}^n$，且 $||x||=1$，有
+
 $$\frac{x^TAx}{x^Tx}=\frac{z^TP^TAPz}{z^TP^TPz}=\frac{\lambda_1 z_1^2+\lambda_2 z_2^2+\cdots+\lambda_{n}z_n^2}{z_1^2+z_2^2+\cdots+z_n^2}\leq \lambda_1
 $$
+
 即
 $$\lambda_0=\max_{x\in \mathbb{R}}\frac{x^TAx}{x^Tx}$$
