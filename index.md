@@ -31,20 +31,20 @@ $\textbf{证明}$ 易知 $B^{-1}-A^{-1}$是实对称矩阵.由于存在可逆矩
  $$B^{-1}-A^{-1}=P^{-1}\mathrm{diag} \{ \frac{1}{\lambda_1}-1,\cdots,\frac{1}{\lambda_n}-1 \} P$$
 且 $\frac{1}{\lambda_i}-1>0$，故 $B^{-1}-A^{-1}$正定.
 
-> 6.设$A$为$n$阶实对称矩阵，$\lambda_0$是$A$的最大特征值.证明:$\lambda_1=\displaystyle\max_{x\in \mathbb{R}}\frac{x^TAx}{x^Tx}$，其中$x$为非零向量.
+> 5.设 $A$为 $n$阶实对称矩阵， $\lambda_0$是 $A$的最大特征值.证明: $\lambda_1=\displaystyle\max_{x\in \mathbb{R}}\frac{x^TAx}{x^Tx}$，其中 $x$为非零向量.
 
-$\textbf{证明}$ 设$y$是$A$的属于特征值$\lambda_1$且长度为1的特征向量，即有
+$\textbf{证明}$ 设 $y$是 $A$的属于特征值 $\lambda_1$且长度为 1的特征向量，即有
 $$Ay=\lambda_1 y,\text{且}||y||=1$$
-所以$\lambda_1=\frac{y^TAy}{y^Ty}$.
+所以 $\lambda_1=\frac{y^TAy}{y^Ty}$.
 
-又因为$A$为$n$阶实对称矩阵，故存在正交阵$P$，使
+又因为 $A$为 $n$阶实对称矩阵，故存在正交阵 $P$，使
 $$P^TAP=\begin{pmatrix}
         \lambda_1&&&\\
         &\lambda_2&&\\
         &&\ddots&\\
         &&&\lambda_{n}
     \end{pmatrix}$$
-其中$\lambda_1\geq \lambda_2\geq \cdots\geq \lambda_{n}$为$A$的$n$个特征向量.作变换$x=Pz$，那么$\forall x\in \mathrm{R}^n$，且$||x||=1$，有
+其中 $\lambda_1\geq \lambda_2\geq \cdots\geq \lambda_{n}$为 $A$的 $n$个特征向量.作变换 $x=Pz$，那么 $\forall x\in \mathrm{R}^n$，且 $||x||=1$，有
 $$\frac{x^TAx}{x^Tx}=\frac{z^TP^TAPz}{z^TP^TPz}=\frac{\lambda_1 z_1^2+\lambda_2 z_2^2+\cdots+\lambda_{n}z_n^2}{z_1^2+z_2^2+\cdots+z_n^2}\leq \lambda_1
 $$
 即
