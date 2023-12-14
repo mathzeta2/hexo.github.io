@@ -25,7 +25,7 @@ $\textbf{证明}$ 由 $B$为实反对称矩阵可知， $B^T=-B$.那么 $|A-B^2|
 
 $\textbf{证明}$ 易知 $B^{-1}-A^{-1}$是实对称矩阵.由于存在可逆矩阵 $P$，使
 
- $$ A=P^{-1}EP,B=P^{-1}\mathrm{diag}\left\{\lambda_1,\cdots,\lambda_n\right\}P,\lambda_i>0$$
+ $A=P^{-1}EP,B=P^{-1}\mathrm{diag}\left\{\lambda_1,\cdots,\lambda_n\right\}P,\lambda_i>0$
  
 于是由 $A-B$正定知 $1-\lambda_i>0$，从而
  $$B^{-1}-A^{-1}=P^{-1}\mathrm{diag}\left\{\frac{1}{\lambda_1}-1,\cdots,\frac{1}{\lambda_n}-1\right\}P$$
