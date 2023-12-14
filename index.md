@@ -8,7 +8,7 @@
 
 $\textbf{解}$ (1) 
 
- $\begin{aligned}|AA^T| & =\begin{vmatrix}
+ $$|AA^T| & =\begin{vmatrix}
             a^2&b&\cdots&b\\
             b&a^2&\cdots&b\\
             \vdots&\vdots&\ddots&\vdots\\
@@ -24,7 +24,7 @@ $\textbf{解}$ (1)
             0&a^2-b&\cdots&0\\
             \vdots&\vdots&\ddots&\vdots\\
             0&0&\cdots&a^2-b
-        \end{vmatrix}=[a^2+(s-1)b](a^2-b)^{s-1}\end{aligned}$
+        \end{vmatrix}=[a^2+(s-1)b](a^2-b)^{s-1}$$
     
 (2) 由于
 
